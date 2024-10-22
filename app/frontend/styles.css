@@ -1,0 +1,119 @@
+/* Style for the logo section in the navbar */
+.logo {
+    display: flex;
+    align-items: center; /* Center the logo and text vertically */
+    margin-right: auto; /* Push the nav items to the right */
+    padding-left: 20px; /* Add padding to the left */
+}
+
+.logo img {
+    height: 10px; /* Set the height of the logo */
+}
+/* Style for the navigation bar */
+nav {
+    background-color: #004466; /* Dark blue background */
+    padding: 10px 0; /* Add some padding for height */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align navigation to the right */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove right margin for the last item */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* White text color */
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #006699; /* Lighter blue on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+/* Additional styling for the page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Headings */
+h1,h2,h3 {
+    color: darkblue;
+}
+
+/* Center the upload section */
+.upload-section {
+    text-align: center; /* Center-align the text */
+    margin-bottom: 30px; /* Add space between the upload section and the prediction boxes */
+}
+
+/* Add spacing between the file input and the upload button */
+.upload-section input[type="file"] {
+    margin-right: 10px; /* Space between the file input and the upload button */
+}
+
+/* Prediction box styling */
+/* Prediction box styling */
+.prediction-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px auto; /* Center the box */
+    max-width: 600px;   /* Limit the width of the box */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prediction-box h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.prediction-box p {
+    color: #666;
+}
+
+/* Pagination controls */
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    margin: 0 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination a.active {
+    background-color: #0056b3;
+}

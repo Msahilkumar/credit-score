@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/frontend/styles.css">
+    <title>Predictions</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="/frontend/logo.png" alt="" style="height: 30px; margin-right: 10px;">
+            <span style="color: white; font-weight: bold;font-size: 20px;">Sahil Kumar</span>
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/predictions">Predictions</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </nav>
+    
+
+    <div class="container">
+        <div class="upload-section">
+            <h1>Upload Your CSV File here!</h1>
+            <input type="file" id="csvFile" accept=".csv">
+            <button onclick="uploadFile()">Upload</button>
+        </div>
+        <div id="predictionsContainer"></div>
+        <div id="pagination" class="pagination"></div>
+    </div>
+
+    <script src="/frontend/script.js"></script>
+</body>
+</html>

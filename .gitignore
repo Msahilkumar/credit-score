@@ -1,0 +1,7 @@
+app/myenv/                   # Ignore virtual environment folder
+__pycache__/            # Ignore Python cache files
+*.pyc                   # Ignore compiled Python files
+*.pyo                   # Ignore optimized Python files
+*.pyd                   # Ignore Python dynamic modules
+*.db                    # Ignore database files
+*.sqlite3              # Ignore SQLite database files
